@@ -20,4 +20,16 @@ public class ButtonOptions : MonoBehaviour {
     public void Track01() {
         SceneManager.LoadScene(2);
     }
+
+    public void Track02() {
+        SceneManager.LoadScene(3);
+    }
+
+    public void Track03() {
+        SceneManager.LoadScene(4);
+    }
+
+    public void quit() {
+        Application.Quit();
+    }
 }
